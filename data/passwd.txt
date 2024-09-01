@@ -1,0 +1,10 @@
+andrew:*:1001:1001:Andrew Anderson:/home/andrew:/bin/bash
+ben:*:1002:1002:Ben Birch:/home/ben:/bin/bash
+charlie:*:1003:1003:Charlie Carson:/home/charlie:/bin/bash
+dennis:*:1004:1004:Dennis Dawson:/home/dennis:/bin/ksh
+eric:*:1005:1005:Eric Ehlers:/home/eric:/bin/bash
+fred:*:1006:1006:Fred Formann:/home/fred:/bin/tcsh
+george:*:1007:1007:George Garisson:/home/george:/bin/ksh
+hector:*:1008:1008:Hector Hanson:/home/hector:/bin/bash
+irving:*:1009:1009:Irving Inglish:/home/irving:/bin/zsh
+john:*:1010:1010:John Jackson:/home/John:/bin/bash
