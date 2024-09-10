@@ -32,3 +32,40 @@
   * The player
   * The bet
   * Win or lose
+
+# Chapter 6
+
+* Create a function that reads the `numbers.txt` file, adds the numbers, and returns the sum of the numbers.
+* Add error handling so that the lines that are not numbers are ignored.
+* Create a main part that asks for the filename and handles if the filename does not exist.
+
+# Chapter 7
+
+For the exercise these data can be used:
+
+```python
+data = [
+    {'name': 'Anders', 'age': 34, 'height': 1.82},
+    {'name': 'Benny', 'age': 51, 'height': 1.81},
+    {'name': 'Charlie', 'age': 72, 'height': 1.84},
+    {'name': 'Dennis', 'age': 31, 'height': 1.78},
+    {'name': 'Eric', 'age': 45, 'height': 1.83},
+]
+```
+
+* Create a script that dumps the above data to the file named `data.json`
+* Create a script that reads `data.json` and prints the content
+* Create a script that dumps the above data to the file named `data.csv`
+* Create a script that reads `data.csv` and prints the content
+* Create a script that connects to a SQLite3 database, dumps the table `data` if it exists, creates a new table `data`, and inserts above data into the table. Read the data out again and print it.
+
+# Chapter 8
+
+* Create a distributable package, `converterz`, with a README file and a `setup.py` file.
+* Copy the `convpack` package from chapter 3
+* build the package
+
+# Chapter 9
+
+* Add unit tests to the package from chapter 8
+* Make sure that `mypy`, `pylint`, `flake8`, and `black` doesn't find any errors.
