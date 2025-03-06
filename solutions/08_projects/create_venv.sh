@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Create a virtual environment and activate it
+
+python3 -m venv venv
+
+source venv/bin/activate
+# .\venv\Scripts\activate.ps1
