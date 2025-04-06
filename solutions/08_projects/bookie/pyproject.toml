@@ -1,0 +1,17 @@
+[project]
+name = "bookie"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Alfred E. Hacker", email = "hacker@corp.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+bookie = "bookie.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
