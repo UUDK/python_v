@@ -1,6 +1,5 @@
 import requests
 import bs4
-from pathlib import PosixPath as Path
 
 
 def scrape_example_quotes_toscrape_com(
